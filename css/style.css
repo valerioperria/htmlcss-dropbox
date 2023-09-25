@@ -171,4 +171,36 @@ main{
 .questions{
     width: 100%;
     height: 25rem;
+    background-color: darkorange;
+}
+
+/* FOOTER */
+.footer-container{
+    /* background-color: black; */
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.end{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.end-list{
+    width: 20%;
+    height: 30rem;
+    background-color: lightsalmon;
+}
+.lenguage{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    bottom: 0%;
+    left: 0%;
+    background-color: lightseagreen;
 }
