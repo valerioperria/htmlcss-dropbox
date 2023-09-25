@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px dashed blue; */
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* UTILITY CLASS */
+
+/* HEADER */
+.header-container{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-box, .start-box{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
+
+/* HERO */
+.hero{
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(53, 135, 242);
+    display: flex;
+    justify-content: center;
+}
+.hero-container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 106, 0);
+    position: relative;
+}
+.h1-box{
+    width: 100%;
+    height: 40%;
+    background-color: aquamarine;
+}
+.free-trial-box{
+    width: 30%;
+    height: 60%;
+    background-color: gold;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.img-1-box{
+    width: 70%;
+    height: 60%;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
