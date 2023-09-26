@@ -29,6 +29,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
+
 .list-logo, .list-start{
     list-style: none; 
     display: flex;
@@ -38,9 +39,21 @@ button:hover{
     height: 100%;
     padding: 0 1rem;
 }
+
 .list-logo a, .list-start a{
     text-decoration: none;
 }
+
+.list-logo li, .list-start li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hover-underline:hover{
+    border-bottom: 2px solid black;
+}
+
 
 /* MAIN */
 main{
