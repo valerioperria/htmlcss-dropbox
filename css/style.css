@@ -316,74 +316,53 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* operations */
 .operations {
     width: 100%;
-    height: 66rem;
+    height: 80rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.operations img {
+    width: 100%;
 }
 
 .operations-box-title {
     width: 100%;
-    height: 6rem;
-    background-color: crimson;
+    height: 4rem;
+    /* padding-top: 2rem; */
+}
+
+.operations-box-title h2 {
+    font-size: 2.5rem;
 }
 
 .operations-box {
-    width: calc(100% / 3);
-    height: 30rem;
-    background-color: yellow;
+    width: calc((100% / 3) - (2rem / 3));
+    height: 32rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.operations-box h2 {
+    margin-bottom: 2rem;
+}
 
 
 
 /* team */
 .team {
     width: 100%;
-    height: 15rem;
-    background-color: violet;
+    height: 12rem;
 }
 
-/* section width:100% */
+.team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+
 /* company */
 .company {
     width: 100%;
@@ -399,20 +378,147 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: chocolate;
 }
 
 .company-mini-box {
     width: 50%;
     height: 50%;
-    background-color: chartreuse;
+}
+
+.company-mini-box img {
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+    filter: invert(1);
+}
+
+.asu img {
+    padding: 25%;
+}
+
+.uof img {
+    padding: 35% 20%;
+}
+
+.clch img {
+    padding: 27%;
+}
+
+.desi {
+    background-color: rgb(76, 197, 76);
+    border: 10px solid rgb(129, 211, 129);
+}
+
+.asu {
+    background-color: brown;
+}
+
+.uof {
+    background-color: dodgerblue;
+}
+
+.topp {
+    background-color: red;
+}
+
+.wbr {
+    background-color: crimson;
+}
+
+.corp {
+    background-color: lightskyblue;
+}
+
+.lon {
+    background-color: blue;
+}
+
+.clch {
+    background-color: gold;
+}
+
+.center {
+    display: block;
+    padding: 2rem;
+    background-color: rgb(233, 225, 225);
+    overflow: auto;
+}
+
+.center img {
+    width: 40%;
+}
+
+.center hr {
+    width: 17%;
+}
+
+.center img,
+.center hr,
+.center p {
+    margin-bottom: 2rem;
 }
 
 .company-box-large {
     width: 100%;
     height: 35%;
-    background-color: aqua;
+    background-color: rgb(117, 173, 222);
+    display: flex;
+    justify-content: center;
 }
+
+.company-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.company-wrapper h2 {
+    margin-right: 4rem;
+    font-size: 2rem;
+    color: rgb(125, 10, 33);
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+}
+
+.company-wrapper button {
+    height: fit-content;
+    padding: 0.75rem 3rem;
+    position: absolute;
+    bottom: 50%;
+    right: 5%;
+    border: none;
+}
+
+.company-wrapper button:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* section width:70% */
 .questions {
