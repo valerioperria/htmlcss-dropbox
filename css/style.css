@@ -159,7 +159,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    gap: 30px;
 }
 
 .title-business,
@@ -174,27 +175,12 @@ main {
 }
 
 .title-business h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
 }
 
 .title-business #fatt-annuale {
     margin-left: 3rem;
-}
-
-
-.professional-box,
-.advanced-box,
-.enterprise-box {
-    width: 30%;
-    height: 100%;
-    display: inline-block;
-    border: 1px solid rgb(188, 186, 186);
-}
-
-.professional-box,
-.advanced-box {
-    margin-right: 47px;
 }
 
 .user-solid {
@@ -205,47 +191,42 @@ main {
     border-bottom: 1px solid rgb(188, 186, 186);
 }
 
-.solid-img {
-    width: 1rem;
-    height: 1rem;
-    margin-right: 3px;
+.professional-box,
+.advanced-box,
+.enterprise-box {
+    width: calc((100% / 3) - 20px);
+    height: 100%;
+    display: inline-block;
+    border: 1px solid rgb(188, 186, 186);
 }
 
 .list-box {
-    padding: 1rem;
+    padding: 2rem;
 }
 
-.business-list {
-    list-style-type: none;
-    ;
-}
-
-.business-list li {
+.list-box h3,
+.list-box div,
+.list-box button,
+.list-box hr,
+.list-box h4,
+.list-box li {
     margin-bottom: 1rem;
 }
 
-.logo-and-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.list-box ul,
+#month {
+    margin-bottom: 3rem;
+    list-style-type: none;
 }
 
-.logo-and-text-long {
-    display: flex;
-    flex-direction: row;
-}
-
-.logo-and-text-long img {
-    margin-top: 3px;
-}
-
-.business-list hr {
+.list-box hr {
+    margin: 3rem 0 3rem;
     width: 30%;
 }
 
-.business-list .blue-button {
+.list-box button {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .enterprise-contact-wrapper {
@@ -337,7 +318,7 @@ main {
 }
 
 .operations-box-title h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .operations-box {
@@ -358,7 +339,7 @@ main {
 }
 
 .team h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -491,41 +472,35 @@ main {
     border: none;
 }
 
-.company-wrapper button:hover{
+.company-wrapper button:hover {
     background-color: rgb(202, 202, 202);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section width:70% */
+/* questions */
 .questions {
     width: 100%;
     height: 25rem;
-    background-color: darkorange;
 }
+
+.questions h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.question {
+    padding: 2rem 0;
+}
+
+.question-up {
+    border-top: 1px solid rgb(188, 186, 186);
+    border-bottom: 1px solid rgb(188, 186, 186);
+}
+
+.question-down {
+    border-top: 1px solid rgb(188, 186, 186);
+    border-bottom: 1px solid rgb(188, 186, 186);
+}
+
 
 /* FOOTER */
 .footer-container {
@@ -535,6 +510,8 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
+    background-color: black;
+    padding-top: 3rem;
 }
 
 .end {
@@ -549,7 +526,16 @@ main {
 .end-list {
     width: 20%;
     height: 30rem;
-    background-color: lightsalmon;
+    color: white;
+}
+
+.end-list h3 {
+    margin: 2rem 0;
+}
+
+.end-list li {
+    list-style: none;
+    padding: 0.5rem 0;
 }
 
 .lenguage {
@@ -558,5 +544,9 @@ main {
     height: 7rem;
     bottom: 0%;
     left: 0%;
-    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(188, 186, 186);
+    color: rgb(188, 186, 186);
 }
