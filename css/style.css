@@ -234,11 +234,13 @@ main {
 }
 
 .list-box ul,
-#month {
+.month {
     margin-bottom: 3rem;
     list-style-type: none;
 }
-
+.month {
+    color: rgb(188, 186, 186);
+}
 .list-box hr {
     margin: 3rem 0 3rem;
     width: 30%;
