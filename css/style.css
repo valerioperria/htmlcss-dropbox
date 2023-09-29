@@ -67,6 +67,9 @@ body {
     border-bottom: 2px solid black;
 }
 
+.list-logo li a, .list-start li a{
+    color: black;
+}
 
 /* MAIN */
 main {
@@ -521,6 +524,7 @@ main {
     border-top: 1px solid rgb(188, 186, 186);
     border-bottom: 1px solid rgb(188, 186, 186);
 }
+
 
 .question-down {
     border-top: 1px solid rgb(188, 186, 186);
